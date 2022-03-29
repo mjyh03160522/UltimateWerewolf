@@ -36,6 +36,9 @@ app.get('/description', function (req, res) {
 app.get('/setting', function (req, res) {
     res.render('setting')
 })
+app.get('/setting2', function (req, res) {
+    res.render('setting2')
+})
 app.get('/record', function (req, res) {
     res.render('record')
 })
@@ -44,6 +47,9 @@ app.get('/contact', function (req, res) {
 })
 app.get('/play_auto', function (req, res) {
     res.render('play_auto')
+})
+app.get('/play_auto2', function (req, res) {
+    res.render('play_auto2')
 })
 app.get('/play_semi-auto_1', function (req, res) {
     res.render('play_semi-auto_1')
@@ -56,6 +62,9 @@ app.get('/play_manual', function (req, res) {
 })
 app.get('/play_intro', function (req, res) {
     res.render('play_intro')
+})
+app.get('/play_intro2', function (req, res) {
+    res.render('play_intro2')
 })
 app.get('/play_day', function (req, res) {
     res.render('play_day')
